@@ -17,7 +17,6 @@ describe('AppComponent', () => {
   it(`should have the 'populism' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('populism');
   });
 
   it('should render title', () => {

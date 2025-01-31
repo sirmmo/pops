@@ -1,0 +1,63 @@
+.col{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+#selector{
+    margin-right: 4px;
+    border-right: 1px solid gray;
+}
+
+#info{
+    width: 400px;
+    display: flex;
+}
+
+#menu{
+    display:Flex;
+    height: 64px;
+}
+
+#timeline{
+    height: 64px;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#years{
+    overflow-x: visible;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+#timeline button, #menu button{
+    height: 40px;
+    margin: 4px;
+}
+
+#map{
+    width: calc(100vw - 420px);
+
+    height: calc(100vh - 128px);
+}
+
+table{
+    display: table !important;
+    width: 100%;
+    font-size:small;
+}
+tr{
+    display: table-row;
+}

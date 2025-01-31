@@ -1,0 +1,36 @@
+0 verbose cli D:\Program Files\nodejs\node.exe D:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v18.20.3
+3 silly config:load:file:d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\npmrc
+4 silly config:load:file:d:\Users\marco\Documents\GitHub\populism\.npmrc
+5 silly config:load:file:C:\Users\marco\.npmrc
+6 silly config:load:file:D:\Program Files\nodejs\etc\npmrc
+7 verbose title npm outdated
+8 verbose argv "outdated" "--json"
+9 verbose logfile logs-max:10 dir:d:\Users\marco\Documents\GitHub\populism\_logs\2025-01-30T11_39_41_973Z-
+10 verbose logfile d:\Users\marco\Documents\GitHub\populism\_logs\2025-01-30T11_39_41_973Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/rxjs 726ms (cache miss)
+13 http fetch GET 200 https://registry.npmjs.org/jasmine-core 775ms (cache miss)
+14 http fetch GET 200 https://registry.npmjs.org/karma-jasmine-html-reporter 789ms (cache miss)
+15 http fetch GET 200 https://registry.npmjs.org/tslib 821ms (cache miss)
+16 http fetch GET 200 https://registry.npmjs.org/karma-chrome-launcher 816ms (cache miss)
+17 http fetch GET 200 https://registry.npmjs.org/karma-jasmine 836ms (cache miss)
+18 http fetch GET 200 https://registry.npmjs.org/karma-coverage 848ms (cache miss)
+19 http fetch GET 200 https://registry.npmjs.org/zone.js 887ms (cache miss)
+20 http fetch GET 200 https://registry.npmjs.org/@types%2fjasmine 931ms (cache miss)
+21 http fetch GET 200 https://registry.npmjs.org/karma 963ms (cache miss)
+22 http fetch GET 200 https://registry.npmjs.org/@angular%2fanimations 1006ms (cache miss)
+23 http fetch GET 200 https://registry.npmjs.org/@angular%2fcore 1020ms (cache miss)
+24 http fetch GET 200 https://registry.npmjs.org/@angular%2fcommon 1047ms (cache miss)
+25 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler 1066ms (cache miss)
+26 http fetch GET 200 https://registry.npmjs.org/@angular%2frouter 1081ms (cache miss)
+27 http fetch GET 200 https://registry.npmjs.org/@angular%2fplatform-browser 1125ms (cache miss)
+28 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler-cli 1187ms (cache miss)
+29 http fetch GET 200 https://registry.npmjs.org/@angular%2fplatform-browser-dynamic 1224ms (cache miss)
+30 http fetch GET 200 https://registry.npmjs.org/@angular%2fcli 1244ms (cache miss)
+31 http fetch GET 200 https://registry.npmjs.org/@angular-devkit%2fbuild-angular 1313ms (cache miss)
+32 http fetch GET 200 https://registry.npmjs.org/@angular%2fforms 1391ms (cache miss)
+33 http fetch GET 200 https://registry.npmjs.org/typescript 1431ms (cache miss)
+34 verbose exit 1
+35 verbose code 1

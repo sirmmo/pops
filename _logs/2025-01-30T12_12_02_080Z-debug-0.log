@@ -1,0 +1,42 @@
+0 verbose cli D:\Program Files\nodejs\node.exe D:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v18.20.3
+3 silly config:load:file:d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\npmrc
+4 silly config:load:file:D:\Users\marco\Documents\GitHub\populism\.npmrc
+5 silly config:load:file:C:\Users\marco\.npmrc
+6 silly config:load:file:D:\Program Files\nodejs\etc\npmrc
+7 verbose title npm install @angular/material@17.3.10
+8 verbose argv "install" "@angular/material@17.3.10"
+9 verbose logfile logs-max:10 dir:D:\Users\marco\Documents\GitHub\populism\_logs\2025-01-30T12_12_02_080Z-
+10 verbose logfile D:\Users\marco\Documents\GitHub\populism\_logs\2025-01-30T12_12_02_080Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest @angular/material@17.3.10
+14 http fetch GET 200 https://registry.npmjs.org/@angular%2fmaterial 572ms (cache miss)
+15 silly placeDep ROOT @angular/material@ OK for: populism@0.0.0 want: 17.3.10
+16 verbose type system
+17 verbose stack FetchError: Invalid response body while trying to fetch https://registry.npmjs.org/@angular%2fmaterial: EBUSY: resource busy or locked, unlink 'D:\Users\marco\Documents\GitHub\populism\_cacache\tmp\5fd5e0e9'
+17 verbose stack     at d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\node_modules\minipass-fetch\lib\body.js:170:15
+17 verbose stack     at async Response.json (d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\node_modules\minipass-fetch\lib\body.js:75:17)
+17 verbose stack     at async RegistryFetcher.packument (d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\node_modules\pacote\lib\registry.js:98:25)
+17 verbose stack     at async RegistryFetcher.manifest (d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\node_modules\pacote\lib\registry.js:129:23)
+17 verbose stack     at async #nodeFromEdge (d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1055:19)
+17 verbose stack     at async #buildDepStep (d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:923:11)
+17 verbose stack     at async Arborist.buildIdealTree (d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:203:7)
+17 verbose stack     at async Promise.all (index 1)
+17 verbose stack     at async Arborist.reify (d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:131:5)
+17 verbose stack     at async Install.exec (d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\lib\commands\install.js:150:5)
+18 verbose cwd D:\Users\marco\Documents\GitHub\populism
+19 verbose Windows_NT 10.0.18363
+20 verbose node v18.20.3
+21 verbose npm  v10.7.0
+22 error code EBUSY
+23 error syscall unlink
+24 error path D:\Users\marco\Documents\GitHub\populism\_cacache\tmp\5fd5e0e9
+25 error errno EBUSY
+26 error Invalid response body while trying to fetch https://registry.npmjs.org/@angular%2fmaterial: EBUSY: resource busy or locked, unlink 'D:\Users\marco\Documents\GitHub\populism\_cacache\tmp\5fd5e0e9'
+27 verbose exit 1
+28 verbose code 1
+29 silly unfinished npm timer reify 1738239123585
+30 silly unfinished npm timer reify:loadTrees 1738239123595
+31 error A complete log of this run can be found in: D:\Users\marco\Documents\GitHub\populism\_logs\2025-01-30T12_12_02_080Z-debug-0.log

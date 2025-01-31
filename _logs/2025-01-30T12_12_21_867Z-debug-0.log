@@ -1,0 +1,238 @@
+0 verbose cli D:\Program Files\nodejs\node.exe D:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v18.20.3
+3 silly config:load:file:d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\npmrc
+4 silly config:load:file:D:\Users\marco\Documents\GitHub\populism\.npmrc
+5 silly config:load:file:C:\Users\marco\.npmrc
+6 silly config:load:file:D:\Program Files\nodejs\etc\npmrc
+7 verbose title npm install @angular/material@17.3.10
+8 verbose argv "install" "@angular/material@17.3.10"
+9 verbose logfile logs-max:10 dir:D:\Users\marco\Documents\GitHub\populism\_logs\2025-01-30T12_12_21_867Z-
+10 verbose logfile D:\Users\marco\Documents\GitHub\populism\_logs\2025-01-30T12_12_21_867Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest @angular/material@17.3.10
+14 http fetch GET 200 https://registry.npmjs.org/@angular%2fmaterial 653ms (cache miss)
+15 silly fetch manifest @angular/animations@^17.3.0
+16 http fetch GET 200 https://registry.npmjs.org/@angular%2fanimations 136ms (cache updated)
+17 silly fetch manifest @angular/core@^17.3.0
+18 http fetch GET 200 https://registry.npmjs.org/@angular%2fcore 122ms (cache updated)
+19 silly fetch manifest rxjs@~7.8.0
+20 http fetch GET 200 https://registry.npmjs.org/rxjs 94ms (cache updated)
+21 silly fetch manifest zone.js@~0.14.3
+22 http fetch GET 200 https://registry.npmjs.org/zone.js 78ms (cache updated)
+23 silly fetch manifest @angular/cdk@17.3.10
+24 http fetch GET 200 https://registry.npmjs.org/@angular%2fcdk 113ms (cache miss)
+25 silly fetch manifest @angular/common@^17.3.0
+26 http fetch GET 200 https://registry.npmjs.org/@angular%2fcommon 120ms (cache updated)
+27 silly fetch manifest @angular/forms@^17.3.0
+28 http fetch GET 200 https://registry.npmjs.org/@angular%2fforms 154ms (cache updated)
+29 silly fetch manifest @angular/platform-browser@^17.3.0
+30 http fetch GET 200 https://registry.npmjs.org/@angular%2fplatform-browser 151ms (cache updated)
+31 silly placeDep ROOT @angular/material@17.3.10 OK for: populism@0.0.0 want: 17.3.10
+32 silly placeDep ROOT @angular/cdk@17.3.10 OK for: @angular/material@17.3.10 want: 17.3.10
+33 silly fetch manifest @material/dom@15.0.0-canary.7f224ddd4.0
+34 silly fetch manifest @material/fab@15.0.0-canary.7f224ddd4.0
+35 silly fetch manifest @material/rtl@15.0.0-canary.7f224ddd4.0
+36 silly fetch manifest @material/tab@15.0.0-canary.7f224ddd4.0
+37 silly fetch manifest @material/base@15.0.0-canary.7f224ddd4.0
+38 silly fetch manifest @material/card@15.0.0-canary.7f224ddd4.0
+39 silly fetch manifest @material/list@15.0.0-canary.7f224ddd4.0
+40 http fetch GET 200 https://registry.npmjs.org/@material%2frtl 905ms (cache miss)
+41 silly fetch manifest @material/menu@15.0.0-canary.7f224ddd4.0
+42 http fetch GET 200 https://registry.npmjs.org/@material%2fdom 1003ms (cache miss)
+43 silly fetch manifest @material/chips@15.0.0-canary.7f224ddd4.0
+44 http fetch GET 200 https://registry.npmjs.org/@material%2ffab 1388ms (cache miss)
+45 silly fetch manifest @material/radio@15.0.0-canary.7f224ddd4.0
+46 http fetch GET 200 https://registry.npmjs.org/@material%2ftab 2022ms (cache miss)
+47 silly fetch manifest @material/shape@15.0.0-canary.7f224ddd4.0
+48 http fetch GET 200 https://registry.npmjs.org/@material%2fcard 2335ms (cache miss)
+49 silly fetch manifest @material/theme@15.0.0-canary.7f224ddd4.0
+50 http fetch GET 200 https://registry.npmjs.org/@material%2fbase 2895ms (cache miss)
+51 silly fetch manifest @material/banner@15.0.0-canary.7f224ddd4.0
+52 http fetch GET 200 https://registry.npmjs.org/@material%2fradio 1638ms (cache miss)
+53 silly fetch manifest @material/button@15.0.0-canary.7f224ddd4.0
+54 http fetch GET 200 https://registry.npmjs.org/@material%2fmenu 2991ms (cache miss)
+55 silly fetch manifest @material/dialog@15.0.0-canary.7f224ddd4.0
+56 http fetch GET 200 https://registry.npmjs.org/@material%2ftheme 1763ms (cache miss)
+57 silly fetch manifest @material/drawer@15.0.0-canary.7f224ddd4.0
+58 http fetch GET 200 https://registry.npmjs.org/@material%2fchips 3229ms (cache miss)
+59 silly fetch manifest @material/ripple@15.0.0-canary.7f224ddd4.0
+60 http fetch GET 200 https://registry.npmjs.org/@material%2fshape 2448ms (cache miss)
+61 silly fetch manifest @material/select@15.0.0-canary.7f224ddd4.0
+62 http fetch GET 200 https://registry.npmjs.org/@material%2fbanner 1851ms (cache miss)
+63 silly fetch manifest @material/slider@15.0.0-canary.7f224ddd4.0
+64 http fetch GET 200 https://registry.npmjs.org/@material%2flist 5482ms (cache miss)
+65 silly fetch manifest @material/switch@15.0.0-canary.7f224ddd4.0
+66 http fetch GET 200 https://registry.npmjs.org/@material%2fbutton 2177ms (cache miss)
+67 silly fetch manifest @material/density@15.0.0-canary.7f224ddd4.0
+68 http fetch GET 200 https://registry.npmjs.org/@material%2fripple 2672ms (cache miss)
+69 silly fetch manifest @material/tab-bar@15.0.0-canary.7f224ddd4.0
+70 http fetch GET 200 https://registry.npmjs.org/@material%2fdensity 1536ms (cache miss)
+71 silly fetch manifest @material/tooltip@15.0.0-canary.7f224ddd4.0
+72 http fetch GET 200 https://registry.npmjs.org/@material%2fswitch 2601ms (cache miss)
+73 silly fetch manifest @material/checkbox@15.0.0-canary.7f224ddd4.0
+74 http fetch GET 200 https://registry.npmjs.org/@material%2fslider 3782ms (cache miss)
+75 silly fetch manifest @material/snackbar@15.0.0-canary.7f224ddd4.0
+76 http fetch GET 200 https://registry.npmjs.org/@material%2fdialog 7048ms (cache miss)
+77 silly fetch manifest @material/animation@15.0.0-canary.7f224ddd4.0
+78 http fetch GET 200 https://registry.npmjs.org/@material%2fdrawer 9870ms (cache miss)
+79 silly fetch manifest @material/auto-init@15.0.0-canary.7f224ddd4.0
+80 http fetch GET 200 https://registry.npmjs.org/@material%2ftab-bar 8367ms (cache miss)
+81 silly fetch manifest @material/elevation@15.0.0-canary.7f224ddd4.0
+82 http fetch GET 200 https://registry.npmjs.org/@material%2ftooltip 8609ms (cache miss)
+83 silly fetch manifest @material/textfield@15.0.0-canary.7f224ddd4.0
+84 http fetch GET 200 https://registry.npmjs.org/@material%2fselect 12132ms (cache miss)
+85 silly fetch manifest @material/data-table@15.0.0-canary.7f224ddd4.0
+86 http fetch GET 200 https://registry.npmjs.org/@material%2fanimation 3181ms (cache miss)
+87 silly fetch manifest @material/form-field@15.0.0-canary.7f224ddd4.0
+88 http fetch GET 200 https://registry.npmjs.org/@material%2fcheckbox 8954ms (cache miss)
+89 silly fetch manifest @material/image-list@15.0.0-canary.7f224ddd4.0
+90 http fetch GET 200 https://registry.npmjs.org/@material%2felevation 3552ms (cache miss)
+91 silly fetch manifest @material/typography@15.0.0-canary.7f224ddd4.0
+92 http fetch GET 200 https://registry.npmjs.org/@material%2fauto-init 5662ms (cache miss)
+93 silly fetch manifest @material/icon-button@15.0.0-canary.7f224ddd4.0
+94 http fetch GET 200 https://registry.npmjs.org/@material%2fsnackbar 10738ms (cache miss)
+95 silly fetch manifest @material/layout-grid@15.0.0-canary.7f224ddd4.0
+96 http fetch GET 200 https://registry.npmjs.org/@material%2fform-field 6161ms (cache miss)
+97 silly fetch manifest @material/line-ripple@15.0.0-canary.7f224ddd4.0
+98 http fetch GET 200 https://registry.npmjs.org/@material%2fimage-list 5764ms (cache miss)
+99 silly fetch manifest @material/top-app-bar@15.0.0-canary.7f224ddd4.0
+100 http fetch GET 200 https://registry.npmjs.org/@material%2ftypography 3978ms (cache miss)
+101 silly fetch manifest @material/menu-surface@15.0.0-canary.7f224ddd4.0
+102 http fetch GET 200 https://registry.npmjs.org/@material%2fline-ripple 2083ms (cache miss)
+103 silly fetch manifest @material/tab-scroller@15.0.0-canary.7f224ddd4.0
+104 http fetch GET 200 https://registry.npmjs.org/@material%2ficon-button 5034ms (cache miss)
+105 silly fetch manifest @material/touch-target@15.0.0-canary.7f224ddd4.0
+106 http fetch GET 200 https://registry.npmjs.org/@material%2ftouch-target 1824ms (cache miss)
+107 silly fetch manifest @material/tab-indicator@15.0.0-canary.7f224ddd4.0
+108 http fetch GET 200 https://registry.npmjs.org/@material%2flayout-grid 6270ms (cache miss)
+109 silly fetch manifest @material/floating-label@15.0.0-canary.7f224ddd4.0
+110 http fetch GET 200 https://registry.npmjs.org/@material%2ftextfield 14888ms (cache miss)
+111 silly fetch manifest @material/linear-progress@15.0.0-canary.7f224ddd4.0
+112 http fetch GET 200 https://registry.npmjs.org/@material%2ftab-scroller 7692ms (cache miss)
+113 silly fetch manifest @material/notched-outline@15.0.0-canary.7f224ddd4.0
+114 http fetch GET 200 https://registry.npmjs.org/@material%2ftop-app-bar 9850ms (cache miss)
+115 silly fetch manifest @material/segmented-button@15.0.0-canary.7f224ddd4.0
+116 http fetch GET 200 https://registry.npmjs.org/@material%2fmenu-surface 9658ms (cache miss)
+117 silly fetch manifest @material/circular-progress@15.0.0-canary.7f224ddd4.0
+118 http fetch GET 200 https://registry.npmjs.org/@material%2ffloating-label 6461ms (cache miss)
+119 silly fetch manifest @material/feature-targeting@15.0.0-canary.7f224ddd4.0
+120 http fetch GET 200 https://registry.npmjs.org/@material%2ftab-indicator 7096ms (cache miss)
+121 http fetch GET 200 https://registry.npmjs.org/@material%2fdata-table 19550ms (cache miss)
+122 http fetch GET 200 https://registry.npmjs.org/@material%2fnotched-outline 4279ms (cache miss)
+123 http fetch GET 200 https://registry.npmjs.org/@material%2flinear-progress 4797ms (cache miss)
+124 http fetch GET 200 https://registry.npmjs.org/@material%2ffeature-targeting 2995ms (cache miss)
+125 http fetch GET 200 https://registry.npmjs.org/@material%2fsegmented-button 4545ms (cache miss)
+126 http fetch GET 200 https://registry.npmjs.org/@material%2fcircular-progress 4248ms (cache miss)
+127 silly placeDep ROOT @material/animation@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+128 silly placeDep node_modules/@angular/material @material/auto-init@ OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+129 silly placeDep ROOT @material/banner@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+130 silly placeDep ROOT @material/base@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+131 silly placeDep ROOT @material/button@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+132 silly placeDep node_modules/@angular/material @material/card@ OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+133 silly placeDep ROOT @material/checkbox@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+134 silly placeDep ROOT @material/chips@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+135 silly placeDep ROOT @material/circular-progress@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+136 silly placeDep ROOT @material/data-table@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+137 silly placeDep ROOT @material/density@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+138 silly placeDep ROOT @material/dialog@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+139 silly placeDep ROOT @material/dom@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+140 silly placeDep ROOT @material/drawer@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+141 silly placeDep ROOT @material/elevation@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+142 silly placeDep ROOT @material/fab@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+143 silly placeDep ROOT @material/feature-targeting@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+144 silly placeDep ROOT @material/floating-label@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+145 silly placeDep ROOT @material/form-field@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+146 silly placeDep ROOT @material/icon-button@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+147 silly placeDep ROOT @material/image-list@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+148 silly placeDep ROOT @material/layout-grid@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+149 silly placeDep ROOT @material/line-ripple@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+150 silly placeDep ROOT @material/linear-progress@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+151 silly placeDep node_modules/@angular/material @material/list@ OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+152 silly placeDep node_modules/@angular/material @material/menu@ OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+153 silly placeDep ROOT @material/menu-surface@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+154 silly placeDep ROOT @material/notched-outline@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+155 silly placeDep ROOT @material/radio@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+156 silly placeDep ROOT @material/ripple@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+157 silly placeDep node_modules/@angular/material @material/rtl@ OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+158 silly placeDep ROOT @material/segmented-button@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+159 silly placeDep node_modules/@angular/material @material/select@ OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+160 silly placeDep ROOT @material/shape@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+161 silly placeDep ROOT @material/slider@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+162 silly placeDep ROOT @material/snackbar@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+163 silly placeDep ROOT @material/switch@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+164 silly placeDep ROOT @material/tab@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+165 silly placeDep ROOT @material/tab-bar@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+166 silly placeDep ROOT @material/tab-indicator@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+167 silly placeDep ROOT @material/tab-scroller@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+168 silly placeDep ROOT @material/textfield@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+169 silly placeDep ROOT @material/theme@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+170 silly placeDep ROOT @material/tooltip@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+171 silly placeDep ROOT @material/top-app-bar@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+172 silly placeDep ROOT @material/touch-target@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+173 silly placeDep ROOT @material/typography@15.0.0-canary.7f224ddd4.0 OK for: @angular/material@17.3.10 want: 15.0.0-canary.7f224ddd4.0
+174 silly fetch manifest @material/tokens@15.0.0-canary.7f224ddd4.0
+175 silly fetch manifest @material/focus-ring@15.0.0-canary.7f224ddd4.0
+176 silly fetch manifest safevalues@^0.3.4
+177 http fetch GET 200 https://registry.npmjs.org/@material%2ftokens 152ms (cache miss)
+178 silly fetch manifest @material/progress-indicator@15.0.0-canary.7f224ddd4.0
+179 http fetch GET 200 https://registry.npmjs.org/@material%2ffocus-ring 226ms (cache miss)
+180 http fetch GET 200 https://registry.npmjs.org/@material%2fprogress-indicator 291ms (cache miss)
+181 http fetch GET 200 https://registry.npmjs.org/safevalues 645ms (cache miss)
+182 silly placeDep node_modules/@material/banner @material/rtl@ OK for: @material/banner@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+183 silly placeDep ROOT @material/tokens@15.0.0-canary.7f224ddd4.0 OK for: @material/banner@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+184 silly placeDep ROOT @material/focus-ring@15.0.0-canary.7f224ddd4.0 OK for: @material/button@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+185 silly placeDep node_modules/@material/button @material/rtl@ OK for: @material/button@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+186 silly placeDep node_modules/@material/checkbox @material/rtl@ OK for: @material/checkbox@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+187 silly placeDep node_modules/@material/chips @material/rtl@ OK for: @material/chips@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+188 silly placeDep ROOT safevalues@0.3.4 OK for: @material/chips@15.0.0-canary.7f224ddd4.0 want: ^0.3.4
+189 silly placeDep ROOT @material/progress-indicator@15.0.0-canary.7f224ddd4.0 OK for: @material/circular-progress@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+190 silly placeDep node_modules/@material/circular-progress @material/rtl@ OK for: @material/circular-progress@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+191 silly placeDep node_modules/@material/data-table @material/list@ OK for: @material/data-table@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+192 silly placeDep node_modules/@material/data-table @material/menu@ OK for: @material/data-table@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+193 silly placeDep node_modules/@material/data-table @material/rtl@ OK for: @material/data-table@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+194 silly placeDep node_modules/@material/data-table @material/select@ OK for: @material/data-table@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+195 silly placeDep node_modules/@material/dialog @material/rtl@ OK for: @material/dialog@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+196 silly placeDep node_modules/@material/dom @material/rtl@ OK for: @material/dom@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+197 silly placeDep node_modules/@material/drawer @material/list@ OK for: @material/drawer@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+198 silly placeDep node_modules/@material/drawer @material/rtl@ OK for: @material/drawer@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+199 silly placeDep node_modules/@material/elevation @material/rtl@ OK for: @material/elevation@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+200 silly placeDep node_modules/@material/fab @material/rtl@ OK for: @material/fab@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+201 silly placeDep node_modules/@material/floating-label @material/rtl@ OK for: @material/floating-label@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+202 silly placeDep node_modules/@material/focus-ring @material/rtl@ OK for: @material/focus-ring@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+203 silly placeDep node_modules/@material/form-field @material/rtl@ OK for: @material/form-field@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+204 silly placeDep node_modules/@material/icon-button @material/rtl@ OK for: @material/icon-button@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+205 silly placeDep node_modules/@material/linear-progress @material/rtl@ OK for: @material/linear-progress@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+206 silly placeDep node_modules/@material/menu-surface @material/rtl@ OK for: @material/menu-surface@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+207 silly placeDep node_modules/@material/notched-outline @material/rtl@ OK for: @material/notched-outline@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+208 silly placeDep node_modules/@material/ripple @material/rtl@ OK for: @material/ripple@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+209 silly placeDep node_modules/@material/shape @material/rtl@ OK for: @material/shape@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+210 silly placeDep node_modules/@material/slider @material/rtl@ OK for: @material/slider@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+211 silly placeDep node_modules/@material/snackbar @material/rtl@ OK for: @material/snackbar@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+212 silly placeDep node_modules/@material/switch @material/rtl@ OK for: @material/switch@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+213 silly placeDep node_modules/@material/tab @material/rtl@ OK for: @material/tab@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+214 silly placeDep node_modules/@material/textfield @material/rtl@ OK for: @material/textfield@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+215 silly placeDep node_modules/@material/tooltip @material/rtl@ OK for: @material/tooltip@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+216 silly placeDep node_modules/@material/top-app-bar @material/rtl@ OK for: @material/top-app-bar@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+217 silly placeDep node_modules/@material/touch-target @material/rtl@ OK for: @material/touch-target@15.0.0-canary.7f224ddd4.0 want: 15.0.0-canary.7f224ddd4.0
+218 verbose type system
+219 verbose stack FetchError: Invalid response body while trying to fetch https://registry.npmjs.org/@material%2fauto-init: EBUSY: resource busy or locked, unlink 'D:\Users\marco\Documents\GitHub\populism\_cacache\tmp\5f33afef'
+219 verbose stack     at d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\node_modules\minipass-fetch\lib\body.js:170:15
+219 verbose stack     at async Response.json (d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\node_modules\minipass-fetch\lib\body.js:75:17)
+219 verbose stack     at async RegistryFetcher.packument (d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\node_modules\pacote\lib\registry.js:98:25)
+219 verbose stack     at async RegistryFetcher.manifest (d:\Users\marco\AppData\Roaming\nvm\v18.20.3\node_modules\npm\node_modules\pacote\lib\registry.js:129:23)
+220 verbose cwd D:\Users\marco\Documents\GitHub\populism
+221 verbose Windows_NT 10.0.18363
+222 verbose node v18.20.3
+223 verbose npm  v10.7.0
+224 error code EBUSY
+225 error syscall unlink
+226 error path D:\Users\marco\Documents\GitHub\populism\_cacache\tmp\5f33afef
+227 error errno EBUSY
+228 error Invalid response body while trying to fetch https://registry.npmjs.org/@material%2fauto-init: EBUSY: resource busy or locked, unlink 'D:\Users\marco\Documents\GitHub\populism\_cacache\tmp\5f33afef'
+229 verbose exit 1
+230 verbose code 1
+231 silly unfinished npm timer reify 1738239143199
+232 silly unfinished npm timer reify:loadTrees 1738239143213
+233 error A complete log of this run can be found in: D:\Users\marco\Documents\GitHub\populism\_logs\2025-01-30T12_12_21_867Z-debug-0.log
